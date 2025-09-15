@@ -32,10 +32,24 @@ h1{
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 200px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
 form {
+    background-color: var(--primary-color);
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 2rem;
+    justify-content: center;
     gap: 10px;
+    border-radius: 10px;
+    padding: 2rem;
 }
 </style>
