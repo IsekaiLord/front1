@@ -3,9 +3,10 @@ import Welcome from './components/Welcome.vue'
 </script>
 
 <template>
-  <header>
-  </header>
-  <main><Welcome></Welcome></main>
+  <header></header>
+  <main>
+    <Welcome></Welcome>
+  </main>
   <footer></footer>
 </template>
 
@@ -34,7 +35,7 @@ import Welcome from './components/Welcome.vue'
 }
 
 .logo {
-  height: 6em;
+  height: 10em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
