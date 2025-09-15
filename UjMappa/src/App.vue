@@ -39,7 +39,7 @@ import Welcome from './components/Welcome.vue'
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-  
+
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -48,6 +48,7 @@ import Welcome from './components/Welcome.vue'
   filter: drop-shadow(0 0 2em #42b883aa);
 }
 .df {
+  gap: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;

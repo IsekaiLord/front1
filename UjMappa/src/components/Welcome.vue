@@ -6,6 +6,7 @@
         </div>
 
         <form class="df">
+            <font-awesome-icon :icon="['fas', 'user']" />
             <input type="email" id="email" name="email" placeholder="Your email" />
             <input type="text" id="name" name="name" placeholder="Your name"/>
             <button type="submit">Login</button> 
