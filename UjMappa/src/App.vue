@@ -1,15 +1,12 @@
 <script setup>
-import HelloWorld from './components/Welcome.vue'
+import Welcome from './components/Welcome.vue'
 </script>
 
 <template>
   <header>
-    <a>
-      <img src="./assets/gitkraken.png" class="logo" alt="Gitkraken logo" />
-    </a>
   </header>
-  <main></main>
-  <footer><h2>GitKraken</h2></footer>
+  <main><Welcome></Welcome></main>
+  <footer></footer>
 </template>
 
 <style>
